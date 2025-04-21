@@ -3,9 +3,11 @@
 A versatile, lightweight Retrieval-Augmented Generation (RAG) system designed to handle all major content formats — videos, audio, images, text, PDFs, DOCX files, and URLs — making your entire digital library searchable and chat-friendly. Powered by OpenAI’s GPT models, this tool allows users to interact with their data using natural language queries.
 
 Whether it’s a PDF report, a recorded interview, a presentation screenshot, or even a YouTube video — this system extracts relevant content, indexes it for fast retrieval, and returns intelligent, grounded responses with source references.
-🌟 What Makes This Special?
 
-## ✅ Universal Input Support: Works with almost any type of content — not just documents, but also images, audio, videos, web links, and more.
+
+# 🌟 What Makes This Special?
+
+ ✅ Universal Input Support: Works with almost any type of content — not just documents, but also images, audio, videos, web links, and more.
 
 🎙️ Audio/Video Understanding: Uses Whisper to extract insights from spoken content in interviews, lectures, or podcasts, and makes them queryable just like documents.
 
