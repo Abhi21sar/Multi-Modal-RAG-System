@@ -5,20 +5,20 @@ A versatile, lightweight Retrieval-Augmented Generation (RAG) system designed to
 Whether it’s a PDF report, a recorded interview, a presentation screenshot, or even a YouTube video — this system extracts relevant content, indexes it for fast retrieval, and returns intelligent, grounded responses with source references.
 🌟 What Makes This Special?
 
-# ✅ Universal Input Support: Works with almost any type of content — not just documents, but also images, audio, videos, web links, and more.
+## ✅ Universal Input Support: Works with almost any type of content — not just documents, but also images, audio, videos, web links, and more.
 
 🎙️ Audio/Video Understanding: Uses Whisper to extract insights from spoken content in interviews, lectures, or podcasts, and makes them queryable just like documents.
----
+
 🖼️ Image Intelligence: OCR-based extraction lets you search and question scanned documents, charts, presentations, and screenshots.
----
+
 📄 URL Parsing (Coming Soon): Automatically extracts and embeds content from web pages using their URLs.
----
+
 ⚡ Fast Retrieval + GPT Reasoning: Combines FAISS vector search with OpenAI GPT to return fast, relevant, and explainable answers — grounded in your own data.
----
+
 💻 Minimal Setup, Modular Design: Built to be easy to extend or plug into larger systems — great for hobbyists and production users alike.
----
+
 🧠 LLM-Powered QA Interface: A polished Streamlit app allows you to upload files, ask questions, and browse answers — all in one place.
----
+
 ## 🚀 Features
 
 - 📄 Extracts content from **PDFs**, **Word documents**, **images**, and **videos**
@@ -59,7 +59,6 @@ Whether it’s a PDF report, a recorded interview, a presentation screenshot, or
 ├── build_index.py        # Script to build FAISS index
 ├── requirements.txt      # Python dependencies
 └── README.md
-```bash
 
 
 ✅ Getting Started
