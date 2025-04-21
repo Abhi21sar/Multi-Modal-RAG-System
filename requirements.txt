@@ -1,0 +1,13 @@
+
+openai
+pymupdf                 # for PDF parsing\
+python-docx             # for DOCX parsing\
+pillow                  # image preprocessing\
+opencv-python           # video frame extraction\
+whisper                 # audio transcription\
+torch
+faiss-cpu               # vector store\
+sentence-transformers   # text embeddings\
+clip-by-openai          # image embeddings\
+streamlit               # UI\
+langchain               
