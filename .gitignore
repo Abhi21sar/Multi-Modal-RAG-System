@@ -1,0 +1,43 @@
+# Environment Variables (CRITICAL: Contains API Keys)
+.env
+.env.local
+.env.*
+!.env.example
+
+# Python Dependencies & Virtual Envs
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+poetry.lock
+
+# Data & Storage
+data/
+qdrant_data/
+vector_db/
+*.sqlite
+*.db
+
+# Model Files (Too large for git)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+models/
+
+# Logs & Reports
+*.log
+logs/
+performance_report.json
+test_results/
+
+# IDE & Editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Usage examples output
+examples/output/

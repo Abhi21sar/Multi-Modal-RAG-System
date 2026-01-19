@@ -1,11 +1,13 @@
 # app/generator.py
 
 from openai import OpenAI
+import os
 from app.embedder import get_text_embedding
-
+from dotenv import load_dotenv
+load_dotenv()
 # Set your OpenAI API key
 
-client = OpenAI(api_key="Your_OPENAI_API_KEY") 
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY")) 
 
 def build_prompt(context_docs, user_query):
     context = "\n\n".join([doc["content"][:1000] for doc in context_docs])

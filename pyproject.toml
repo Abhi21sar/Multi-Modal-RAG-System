@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "multi-modal-rag-system"
+version = "0.1.0"
+description = "A versatile, lightweight Retrieval-Augmented Generation (RAG) system designed to handle all major content formats"
+authors = ["Abhishek Gurjar <abhishek@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+
+# Core LLM & AI
+openai = ">=2.15.0,<3.0.0"
+langchain = "^0.3.0"
+langchain-openai = "^0.3.0"
+langchain-community = "^0.3.0"
+langgraph = "^0.2.0"
+langchain-qdrant = "^0.1.0"
+
+# Vector Store (Qdrant - Production Grade)
+qdrant-client = "^1.7.3"
+
+# Embeddings & Models
+transformers = "^4.36.2"
+sentence-transformers = ">=5.2.0,<6.0.0"
+torch = ">=2.1.0,<3.0.0"
+clip = {git = "https://github.com/openai/CLIP.git"}
+
+# Reranking
+cohere = "^4.37"
+
+# Document Processing
+pymupdf = ">=1.26.7,<2.0.0"
+pdfplumber = "^0.11.0"
+python-docx = ">=1.2.0,<2.0.0"
+pillow = ">=12.1.0,<13.0.0"
+
+# OCR & Vision
+pytesseract = "^0.3.13"
+easyocr = "^1.7.1"
+
+# Audio/Video
+opencv-python = ">=4.13.0.90,<5.0.0.0"
+openai-whisper = ">=20231117"
+
+# Legacy (keeping for backward compatibility)
+faiss-cpu = ">=1.13.2,<2.0.0"
+
+# Utilities
+python-dotenv = "^1.2.1"
+pydantic = "^2.5.3"
+numpy = "^2.0.0"
+tqdm = "^4.66.1"
+
+# API & UI
+streamlit = ">=1.53.0,<2.0.0"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
