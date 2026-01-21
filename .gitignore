@@ -41,3 +41,16 @@ test_results/
 
 # Usage examples output
 examples/output/
+
+# Testing
+tests/
+test_*.py
+TEST_REPORT.md
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+coverage.xml
+*.cover
