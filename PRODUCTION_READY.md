@@ -47,7 +47,6 @@ We updated your configuration to support enterprise capabilities:
 ## 💾 **Persistent Storage Active**
 
 Your data is now safely stored in the `qdrant_data/` folder. This means:
-- You don't need to re-index every time
 - Data persists across system restarts
 - You can backup the `qdrant_data` folder
 
